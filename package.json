@@ -1,0 +1,21 @@
+{
+  "name": "wsnoice",
+  "version": "1.0.1",
+  "description": "A better wscat",
+  "main": "bin/wsnoice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wsnoice": "bin/wsnoice.js"
+  },
+  "author": "Ben Tattersley",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^2.1.0",
+    "yargs": "^6.6.0"
+  },
+  "publishConfig": {
+    "registry": "http://verdaccio.gambit"
+  }
+}
