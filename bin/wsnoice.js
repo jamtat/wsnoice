@@ -16,7 +16,7 @@ sock.on( 'error', err => {
 } )
 
 sock.on( 'close', ( code, reason ) => {
-	console.error( `Socket closed with code "${code}" and reason "${reason}"`)
+	console.error( `Socket closed with code "${code}" and reason "${reason}"` )
 	process.exit( 0 )
 } )
 
